@@ -37,7 +37,7 @@
         </p>
         <p class="release-date">{{ result.release_date }}</p>
         <ul class="genre-list">
-          <li>{{ result.genres }}</li>
+          <li v-for="genre in genres"> {{ result.genres }}</li>
         </ul>
       </li>
     </ul>
